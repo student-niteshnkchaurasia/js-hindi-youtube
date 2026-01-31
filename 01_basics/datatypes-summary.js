@@ -65,3 +65,28 @@ console.log(typeof heros);
 // console.log(typeof heros);        // "object"
 // console.log(typeof myObj);        // "object"
 // console.log(typeof myFunction);   // "function"
+
+//++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-Primitve)
+
+let myYoutbename = "niteshnkchaurasia"
+
+let anothername = myYoutbename
+anothername = "MSDcoder"
+
+console.log(myYoutbename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
