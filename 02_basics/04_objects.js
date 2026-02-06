@@ -88,8 +88,8 @@ console.log(instructor);
 
 // how to looking api in arrays format
 
-[
-  {},
-  {},
-  {},
-]
+// [
+//   {},
+//   {},
+//   {},
+// ]
